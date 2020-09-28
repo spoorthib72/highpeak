@@ -1,0 +1,25 @@
+#include <stdio.h>
+ int main()
+{ 
+    int M,cost,diff;
+    char fitbit,oven,alexa,camera;
+    printf("the number of employees:\n");
+    scanf("%d",&M);
+    printf("camera=11101\n");
+    scanf("%d",&camera);
+    printf("oven=9800\n");
+    scanf("%d",&oven);
+    printf("fitbit=7980");
+    scanf("%d",&fitbit);
+    printf("alexa=9999");
+    scanf("%d",&fitbit);
+  int ans;
+ void func(int arr[],int M,int N)
+ {
+     for(int i = M; i<N; i++)
+     ans=min(ans,arr[i]-arr[i-M]);
+ }
+ return ans;
+ print(ans);
+     
+ }
